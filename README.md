@@ -8,7 +8,7 @@
 
 The objective of this analysis is to apply six different unbalanced machine learning models to the same dataset and compare the results obtained. The dataset used contains the credit applications for the first quarter of 2019, obtained from a personal credit company called LendingClub. The original data file contains information on 115675 applications.
 
-We will use the RandomOverSampler and SMOTE algorithms to oversample the credit card credit dataset from LendingClub, a peer-to-peer lending services company, and the ClusterCentroids algorithm to undersample the data. The SMOTEENN algorithm will then be used to perform a combinatorial approach of over- and undersampling. Then, to predict credit risk, we will compare two machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier. After that, we will assess the performance of these models and conclude whether they should be used to predict credit risk.
+We will use the RandomOverSampler and SMOTE algorithms to oversample the credit card credit dataset from LendingClub, a peer-to-peer lending services company, and the ClusterCentroids algorithm to undersample the data. The SMOT algorithm will then be used to perform a combinatorial approach of over- and undersampling. Then, to predict credit risk, we will compare two machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier. After that, we will assess the performance of these models and conclude whether they should be used to predict credit risk.
  
 
 
